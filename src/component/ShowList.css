@@ -1,0 +1,38 @@
+.btnViewSummary{
+    width:100%;
+   text-decoration: none;
+   border: 1px solid rebeccapurple;
+   font-size: 20px;
+   padding: 5px;
+   font-weight: 900;
+   background-image: linear-gradient(to right, rgb(99, 79, 218) , yellow);
+  
+   
+
+}
+.show-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    list-style: none;
+
+  }
+  
+  .list {
+    width: calc(33.33% - 10px); /* 10px for margin */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image:linear-gradient(to right, rgb(202, 193, 248) , rgb(200, 180, 248)); ;
+  }
+  .body{
+    background-color: rgb(224, 210, 210);
+  }
+  .h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
